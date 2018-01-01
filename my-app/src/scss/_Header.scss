@@ -1,0 +1,21 @@
+.Header{
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  .person{
+    .icon{
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      background-color: #00aaff;;
+    }
+  }
+  .name{
+    line-height: 50px;
+    span{
+      padding-left: 50px;
+    }
+    font-weight: 500;
+    color: #00aaff;
+  }
+}

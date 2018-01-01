@@ -1,0 +1,52 @@
+html,body{
+  margin:0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+*{
+  font-family: Avenir, "Segoe UI", Arial, sans-serif;
+}
+#root{
+  height:100%;
+}
+.App{
+  height:100%;
+}
+ul, ol {
+  list-style: none;
+}
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #00aaff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ins, a {
+  text-decoration: none;
+}
+.cb{
+  clear: both;
+}
+
+$openBoard: #30bfbf;
+$inprocessBoard:#d93651;
+$reviewBoard:#00aaff;
+$doneBoard:#8f7ee6;
+$deep-Back: #EBF0F2;
+$light-Back:#f5f7f8;
+
+.button-secondary{
+  background-color: $reviewBoard;
+  color: white;
+  margin-right: 10px;
+}
+.pure-button-hover, .pure-button:focus, .pure-button:hover{
+  text-decoration: none;
+}

@@ -1,0 +1,125 @@
+$border-head-height:45px;
+.Boards{
+  height:calc(100% - 52px);
+  overflow-y: hidden;
+}
+.BoardHeader{
+  height: $border-head-height;
+  text-align: center;
+  line-height: $border-head-height;
+  padding-left: 15px;
+  padding-right: 15px;
+  .title{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+  }
+  .count{
+    float: right;
+    color: white;
+  }
+  &.OpenBoardHeader{
+    background-color: $openBoard;
+  }
+  &.InProcessHeader{
+    background-color: $inprocessBoard;
+  }
+  &.ReviewBoardHeader{
+    background-color: $reviewBoard;
+  }
+  &.DoneBoardHeader{
+    background-color: $doneBoard;
+  }
+}
+.BoardContent{
+  overflow-y: auto;
+  height: 100%;
+  &.OpenBoardContent{
+    ul{
+      li{
+        .title-peo{
+          span{
+            &:nth-child(2){
+              color: $openBoard;
+            }
+          }
+        }
+        .bottom-peo{
+          margin-bottom: 6px;
+          span{
+            &:nth-child(2){
+              color: $openBoard;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  &.InProcessContent{
+    ul{
+      li{
+        .title-peo{
+          span{
+            &:nth-child(2){
+              color: $inprocessBoard;
+            }
+          }
+        }
+        .bottom-peo{
+          margin-bottom: 6px;
+          span{
+            &:nth-child(2){
+              color: $inprocessBoard;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  ul{
+    padding: 0 10px 0 10px;
+    margin: 10px 0 10px 0;
+    li{
+      background-color: white;
+      box-shadow: 0px 1px 1px 0px rgba(130,145,153,0.5);
+      border-radius: 5px;
+      padding: 5px;
+      margin-bottom: 10px;
+      .title-peo{
+        margin-bottom: 6px;
+        span{
+          &:nth-child(2){
+            float: right;
+          }
+        }
+      }
+      .content-peo{
+        margin-bottom: 6px;
+        font-size: 14px;
+      }
+      .bottom-peo{
+        font-size: 14px;
+        span{
+          &:nth-child(2){
+            float: right;
+          }
+        }
+      }
+    }
+  }
+}
+.OpenBoard {
+  background-color:$deep-Back;
+}
+.InprocessBoard{
+  background-color: $light-Back;
+}
+
+.ViewBoard {
+  background-color:$deep-Back;
+}
+.DoneBoard{
+  background-color: $light-Back;
+}

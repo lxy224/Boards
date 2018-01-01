@@ -1,0 +1,23 @@
+{
+  "name": "myciip-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gao Sun",
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "country-json": "^1.0.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "multiparty": "^4.1.3",
+    "nodemailer": "^2.7.0",
+    "nodemon": "^1.11.0"
+  }
+}
