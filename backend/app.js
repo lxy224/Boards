@@ -15,6 +15,7 @@ mongoose.connect('mongodb://localhost/boards');
 // const publications = require('./routes/publications');
 const tasks = require('./routes/task');
 const login = require('./routes/login');
+const cookieParser = require('cookie-parser');
 
 //use for production environment
 const routers = {
@@ -27,7 +28,7 @@ const dataRouters = {
     // publications: publications,
     // highlights:  highlights,
     user:login,
-    tasks:tasks
+    tasks:tasks,
 }
 
 // app.use(devMiddleware);
@@ -35,7 +36,7 @@ const dataRouters = {
 
 app.use(bodyParser.json({ limit: '20mb' }));
 app.use(bodyParser.urlencoded({ limit: '20mb', extended: false }));
-
+app.use(cookieParser())
 // Routing
 
 for(let key in dataRouters) {
@@ -54,4 +55,4 @@ app.use('/manage/*', uitl.basicAuth('cisco', 'cisco123'));
 // Listening
 app.listen(8009, () => {
     console.log('listening');
-})
+});

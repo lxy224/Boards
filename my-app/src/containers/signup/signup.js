@@ -1,6 +1,6 @@
 import {connect} from "react-redux";
 // import taskSorted from "../actions/taskSorted";
-import {signup} from '../../actions/user'
+import {signup,SignupWithCode} from '../../actions/user'
 // import openAction from "../actions/open"
 import Signup from '../../components/signup/signup'
 
@@ -9,7 +9,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = {
-    signup: signup
+    signup: signup,
+    SignupWithCode:SignupWithCode
 }
 const SignupContainer = connect(
     mapStateToProps,

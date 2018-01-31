@@ -4,10 +4,11 @@
   line-height: 50px;
   .person{
     .icon{
-      height: 32px;
-      width: 32px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
-      background-color: #00aaff;;
+      background-color: #00aaff;
+      text-align: center;
     }
   }
   .name{
@@ -17,5 +18,12 @@
     }
     font-weight: 500;
     color: #00aaff;
+  }
+  input{
+    &.no-border{
+      border: none;
+      border-bottom: 1px solid #dddddd;
+      outline: none;
+    }
   }
 }

@@ -1,7 +1,8 @@
 import {connect} from "react-redux";
-// import taskSorted from "../actions/taskSorted";
+import unilityOperation from "../actions/utility";
 import Open from "../components/Open";
 import {moveOpenItem} from "../actions/open"
+import {dispatch} from "../index";
 // import openAction from "../actions/open"
 
 const getOpenTasks =(tasks,filter)=>{
@@ -13,10 +14,12 @@ const filterByType = name => tasksArr => {
 };
 
 const mapStateToProps = (state) => ({
-    openTasks:getOpenTasks(state.tasks,"open")
+    openTasks:getOpenTasks(state.tasks,"open"),
 })
-const mapDispatchToProps = {
-    moveOpenItem:moveOpenItem
+const mapDispatchToProps ={
+    moveOpenItem:moveOpenItem,
+    deleteTask:unilityOperation.delete_task
+
 }
 const OpenContainer = connect(
     mapStateToProps,

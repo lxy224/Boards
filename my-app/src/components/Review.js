@@ -10,7 +10,7 @@ const ReviewTarget = {
 }
 export  class Review extends Component {
     render(){
-        const {reviewTasks,InProcessToReview,connectDropTarget,isOver,canDrop} = this.props;
+        const {reviewTasks,InProcessToReview,connectDropTarget,isOver,canDrop,deleteTask} = this.props;
         const isActive = isOver && canDrop;
 
         let backgroundColor;
@@ -29,8 +29,8 @@ export  class Review extends Component {
                 <div className="BoardContent ReviewBoardContent">
                     <ul>
                         {
-                            reviewTasks.map((reviewTask)=>(
-                                <ReviewItem reviewTask={reviewTask} key={reviewTask.id} InProcessToReview={InProcessToReview}/>
+                            reviewTasks.map((reviewTask,index)=>(
+                                <ReviewItem reviewTask={reviewTask} key={index} InProcessToReview={InProcessToReview} deleteTask={deleteTask}/>
                             ))
                         }
                     </ul>

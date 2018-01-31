@@ -9,7 +9,7 @@ export default class Open extends Component {
     //     this.moveOpenItem = this.moveOpenItem.bind(this)
     // }
     render(){
-        const {openTasks,OpenToInProcess,moveOpenItem} = this.props;
+        const {openTasks,OpenToInProcess,moveOpenItem,deleteTask} = this.props;
         console.log(openTasks);
         return(
             <div className="OpenBoard pure-u-1-4">
@@ -22,7 +22,7 @@ export default class Open extends Component {
                     <ul>
                         {
                             openTasks.map((openTask,i)=>(
-                                <OpenItem sortedId={i} openTask={openTask} key={openTask.id} OpenToInProcess={OpenToInProcess} moveOpenItem={moveOpenItem}/>
+                                <OpenItem deleteTask={deleteTask} sortedId={i} openTask={openTask} key={i} OpenToInProcess={OpenToInProcess} moveOpenItem={moveOpenItem}/>
                             ))
                         }
 

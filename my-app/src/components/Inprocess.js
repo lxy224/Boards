@@ -11,7 +11,7 @@ const InprocessTarget = {
 
 export  class Inprocess extends Component {
     render(){
-        const {inProcessTasks,connectDropTarget,isOver,canDrop} = this.props;
+        const {inProcessTasks,connectDropTarget,isOver,canDrop,deleteTask} = this.props;
         const isActive = isOver && canDrop;
 
         console.log({inProcessTasks})
@@ -32,8 +32,8 @@ export  class Inprocess extends Component {
                 <div className="BoardContent InProcessContent">
                     <ul>
                         {
-                            inProcessTasks.map((inProcessTask)=>(
-                                <InprocessItem inProcessTask={inProcessTask} key={inProcessTask.id}/>
+                            inProcessTasks.map((inProcessTask,index)=>(
+                                <InprocessItem inProcessTask={inProcessTask} key={index} deleteTask={deleteTask}/>
                             ))
                         }
 

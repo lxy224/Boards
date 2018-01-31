@@ -15,6 +15,9 @@ const doneBoardSource = {
     }
 }
 class DoneItem extends Component{
+    handleDelete=()=>{
+        this.props.deleteTask(this.props.doneTask)
+    }
     render(){
         const {doneTask, connectDragSource,isDragging} = this.props;
         // const { connectDragSource,isDragging} = this.props;
@@ -24,13 +27,19 @@ class DoneItem extends Component{
                 <div className="title-peo">
                     <span>{doneTask.taskTitle}</span>
                     <span>{doneTask.acceptedUser}</span>
+                    <span><i className='icono-cross' onClick={this.handleDelete.bind(this)}/></span>
+                    {
+                        doneTask.attachment?
+                            <a target="_blank" href={"http://localhost:8009/api/tasks/view?id="+doneTask._id}><i className="icono-paperClip"/></a>:
+                            <i/>
+                    }
                     <span className="cb"/>
                 </div>
                 <div className="content-peo">
                     {doneTask.taskContent}
                 </div>
                 <div className="bottom-peo">
-                    <span>{doneTask.taskType}</span>
+                    <span className={doneTask.taskType}>{doneTask.taskType}</span>
                     <span>{doneTask.createdUser}</span>
                     <span className="cb"/>
                 </div>

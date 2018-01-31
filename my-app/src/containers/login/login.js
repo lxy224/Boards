@@ -1,7 +1,5 @@
 import {connect} from "react-redux";
-// import taskSorted from "../actions/taskSorted";
 import {login} from '../../actions/user'
-// import openAction from "../actions/open"
 import Login from '../../components/login/login'
 
 

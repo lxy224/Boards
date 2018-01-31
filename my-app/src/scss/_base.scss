@@ -50,3 +50,31 @@ $light-Back:#f5f7f8;
 .pure-button-hover, .pure-button:focus, .pure-button:hover{
   text-decoration: none;
 }
+.bottom-peo{
+  span:first-child{
+    &:before{
+      content: '';
+      width:8px;
+      height: 8px;
+      display: inline-block;
+      background-color: green;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+  span:first-child[class="testing"]{
+    &:before{
+      background-color: #cbef89;
+    }
+  }
+  span:first-child[class="document"]{
+    &:before{
+      background-color: #ffe4e1;
+    }
+  }
+  span:first-child[class="develop"]{
+    &:before{
+      background-color: #9ae5f5;
+    }
+  }
+}

@@ -1,26 +1,35 @@
 import React, { Component } from "react";
+import {EmailAndPassword} from "./email_password";
+import {Validation} from "./validation";
 export default class Signup extends Component{
-    constructor(props){
-        super(props);
-        this.handleSubmit = this.handleSubmit.bind(this);
+
+    step = 0;
+    value = null;
+    nextStep(value){
+        this.value = value;
+        this.step++;
+        this.forceUpdate();
     }
-    handleSubmit(event){
-        event.preventDefault();
-        let md5 = require("md5");
-        let user = {}
-        user.username = this.refs.username.value;
-        user.password = md5(this.refs.password.value);
+    handleSignup(user){
         this.props.signup(user);
     }
+    handleSignupWithCode(code){
+        let user = this.value;
+        user.code = code;
+        this.props.SignupWithCode(user);
+    }
     render(){
+        let component = null;
+        if(this.step === 0) {
+            component = (<EmailAndPassword onAccept={ this.nextStep.bind(this) } signup={this.handleSignup.bind(this)}></EmailAndPassword>);
+        }
+        if(this.step===1){
+            component = (<Validation signupWithCode={this.handleSignupWithCode.bind(this)}></Validation>);
+        }
+
         return(
-            <div className="wrap-form">
-                <form className="pure-form pure-form-stacked loginForm" >
-                    <legend>Sign Up</legend>
-                    <input type="email" placeholder="Email" ref="username"/>
-                    <input type="password" placeholder="Password" ref="password"/>
-                    <button type="submit" className="pure-button pure-button-primary" onClick={this.handleSubmit}>Sign Up</button>
-                </form>
+            <div>
+                {component}
             </div>
         )
     }

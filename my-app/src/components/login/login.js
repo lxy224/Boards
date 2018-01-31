@@ -1,22 +1,19 @@
 import React, { Component } from "react";
-import {Link} from "react-router-dom"
+import {Link} from "react-router";
+const md5 = require("md5");
+
 export default class Login extends Component{
     constructor(props){
         super(props);
-        // this.state={
-        //     username:"",
-        //     password:""
-        // };
-
-        // this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleSubmit(event){
         event.preventDefault();
-        let user={};
-        let md5 = require("md5");
-        user.username = this.refs.username.value;
-        user.password =  md5(this.refs.password.value);
+        let user={
+            username : this.refs.username.value,
+            password:  md5(this.refs.password.value),
+            token: md5(this.refs.username.value+this.refs.password.value)
+        }
         this.props.login(user);
     }
     render(){
@@ -28,6 +25,7 @@ export default class Login extends Component{
                     <input type="password" placeholder="Password" ref="password"/>
                     <button type="submit" className="pure-button pure-button-primary" onClick={this.handleSubmit}>Sign in</button>
                 </form>
+                You don't have an account please
                 <Link className="button-submit" to="/signup">
                     Sign up
                 </Link>

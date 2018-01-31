@@ -15,6 +15,9 @@ const openBoardSource = {
     }
 }
  class ReviewItem extends Component{
+     handleDelete=()=>{
+         this.props.deleteTask(this.props.reviewTask)
+     }
     render(){
         const {reviewTask, connectDragSource,isDragging} = this.props;
         // const { connectDragSource,isDragging} = this.props;
@@ -24,13 +27,19 @@ const openBoardSource = {
                      <div className="title-peo">
                          <span>{reviewTask.taskTitle}</span>
                          <span>{reviewTask.acceptedUser}</span>
+                         <span><i className='icono-cross' onClick={this.handleDelete.bind(this)}/></span>
+                         {
+                             reviewTask.attachment?
+                                 <a target="_blank" href={"http://localhost:8009/api/tasks/view?id="+reviewTask._id}><i className="icono-paperClip"/></a>:
+                                 <i/>
+                         }
                          <span className="cb"/>
                      </div>
                      <div className="content-peo">
                          {reviewTask.taskContent}
                      </div>
                      <div className="bottom-peo">
-                         <span>{reviewTask.taskType}</span>
+                         <span className={reviewTask.taskType}>{reviewTask.taskType}</span>
                          <span>{reviewTask.createdUser}</span>
                          <span className="cb"/>
                      </div>

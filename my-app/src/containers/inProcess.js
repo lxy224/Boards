@@ -1,6 +1,8 @@
 import {connect} from "react-redux";
-// import taskSorted from "../actions/taskSorted";
+import unilityOperation from "../actions/utility";
 import {open_to_inprocess} from '../actions/open'
+import taskActions from "../utility/tasks"
+
 // import openAction from "../actions/open"
 import Inprocess from '../components/Inprocess'
 
@@ -17,7 +19,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = {
-    OpenToInProcess: open_to_inprocess
+    OpenToInProcess: open_to_inprocess,
+    deleteTask:unilityOperation.delete_task
 }
 const InprocessContainer = connect(
     mapStateToProps,

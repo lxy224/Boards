@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import loader from './utility/loader';
 import { hashHistory } from 'react-router';
 
 // import {Redirect} from "react-router-dom"
@@ -8,34 +7,25 @@ import 'icono'
 import './scss/App.scss';
 import { DragDropContext } from 'react-dnd'
 import HTML5Backend from 'react-dnd-html5-backend'
-import Header from './components/Header'
+import HeaderContainer from './containers/Header'
 import {Boards} from './components/Boards'
+import object from './utility/object'
+import loader from './utility/loader'
 export class App extends Component {
-
     componentDidMount(){
-      let username =  localStorage['username'];
-      if(username!==null){
-          loader.loadAll();
+      if (object.handleCookie().length<=0){
+          hashHistory.push('/login')
       }
       else {
-          hashHistory.push('/login')
+          loader.loadAll();
       }
     }
   render() {
-      // let { location } = this.props;
-      // if(location.pathname.includes('login')||location.pathname.includes(status)){
-      //   return null;
-      // }
-      // if(false){
-      //     return <Redirect to={ { pathname: '/login' } } />;
-      // }
-      // else {
-      //
-      // }
+
       let username = localStorage['username']
     return (
       <div className="App">
-        <Header username={username}/>
+        <HeaderContainer username={username}/>
           <Boards/>
       </div>
     );

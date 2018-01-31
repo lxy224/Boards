@@ -87,11 +87,35 @@ $border-head-height:45px;
       border-radius: 5px;
       padding: 5px;
       margin-bottom: 10px;
+      position: relative;
+      &:hover{
+        .title-peo{
+          span{
+            &:nth-child(3){
+                display: block;
+                position: absolute;
+                left: calc(100% - 15px);
+                top: -12px;
+                i{
+                  width:22px;
+                  height: 22px;
+                  color: #b0b0b0;
+                }
+            }
+          }
+        }
+
+      }
       .title-peo{
         margin-bottom: 6px;
         span{
           &:nth-child(2){
             float: right;
+          }
+        }
+        span{
+          &:nth-child(3){
+            display: none;
           }
         }
       }

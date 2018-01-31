@@ -6,7 +6,7 @@ const  initialState = {
 const User = (state = initialState, action)=> {
     switch (action.type) {
         case "LOGIN":
-            userActions.loginIn(action.user)
+            userActions.loginIn(action.user);
             return {
                 ...state,
                 username:action.user.username,
@@ -14,6 +14,13 @@ const User = (state = initialState, action)=> {
             };
         case "SIGNUP":
             userActions.singUp(action.user)
+            return{
+                ...state,
+                username:"",
+                password:""
+            }
+        case "SIGNUPWITHCODE":
+            userActions.singupWithCode(action.UserAndCode)
             return{
                 ...state,
                 username:"",

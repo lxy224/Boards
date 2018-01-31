@@ -1,7 +1,6 @@
 import api from "./api"
 import axios from 'axios';
 import { hashHistory } from 'react-router';
-import loader from "./loader"
 
 const userActions = {};
 
@@ -15,18 +14,18 @@ userActions.loginIn = (user) => {
             (res) => {
                 console.log(res);
                 localStorage['username'] = user.username;
-                // userUtil.set({ email: user.email });
-                if(res.data.length>0){
-
-                    new Promise(function (resolve,reject) {
-                        resolve(loader.loadAll())
-                    })
-                      .then(
-                        hashHistory.push('/')
-                    )
-                    return null;
+                if(res.data){
+                    // new Promise(function (resolve,reject) {
+                    //     resolve(loader.loadAll());
+                    // })
+                    //   .then(
+                    //     hashHistory.push('/')
+                    // );
+                    // return null;
+                    hashHistory.push('/')
                 }
                 else {
+                    hashHistory.push('/login');
                     alert("error username or password, please try again!!")
                 }
                 return res.data;
@@ -46,20 +45,62 @@ userActions.singUp = (user)=>{
             (res) => {
                 console.log(res);
                 // userUtil.set({ email: user.email });
-                if(res.data!==null||res.data!==""){
-                    hashHistory.push('/login');
+                if((res.data!==null||res.data!=="")&&res.data.code==="SUC_EMAIL_EXISTS"){
+                    // hashHistory.push('/signup');
                 }
-                if(res.data==="exit"){
-                    alert("username has already exited!!")
+                else{
+                    alert(res.data.message)
                 }
-
-                return res.data[0];
+                // return res.data[0];
             },
             (error) => {
                 throw error.response.data;
             }
         );
 }
-
+userActions.singupWithCode= (user)=>{
+    return axios
+        .post(
+            api.user('signup/validation'),
+            {user}
+        )
+        .then(
+            (res) => {
+                console.log(res);
+                // userUtil.set({ email: user.email });
+                if((res.data!==null||res.data!=="")){
+                    hashHistory.push('/login');
+                }
+                else {
+                    alert("sign up failed");
+                    window.location.reload();
+                }
+            },
+            (error) => {
+                throw error.response.data;
+            }
+        );
+}
+userActions.getAllUsers=()=>{
+    return axios
+        .post(
+            api.user('getUsers'),
+        )
+        .then(
+            (res) => {
+                console.log(res);
+                if((res.data!==null||res.data!=="")){
+                    return res.data
+                }
+                else {
+                    return null;
+                    // resolve(res.data)
+                }
+            },
+            (error) => {
+                throw error.response.data;
+            }
+        );
+}
 
 export default userActions;

@@ -1,7 +1,7 @@
 import {connect} from "react-redux";
 // import taskSorted from "../actions/taskSorted";
 import {inprocess_to_review} from '../actions/inProcess'
-// import openAction from "../actions/open"
+import unilityOperation from "../actions/utility"
 import Review from '../components/Review'
 
 
@@ -18,7 +18,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = {
-    InProcessToReview: inprocess_to_review
+    InProcessToReview: inprocess_to_review,
+    deleteTask:unilityOperation.delete_task
 }
 const ReviewContainer = connect(
     mapStateToProps,

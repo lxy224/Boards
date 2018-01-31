@@ -1,4 +1,3 @@
-// import taskSorted from "../actions/taskSorted"
 // import {open_to_review,open_to_done} from '../actions/open'
 // const filterByType = name => tasksArr => {
 //     return tasksArr.taskStatus.indexOf(name) > -1
@@ -23,21 +22,22 @@ const sortTasks = (tasks)=>{
 const taskSort = (state=[], action)=>{
     let newState = Object.assign({},state);
     switch (action.type) {
-        case "GET_ALL_TASKS":
-            let new_state=sortTasks(action.value);
-            return new_state;
+        case "GET_ALL_ITEMS":
+            newState=sortTasks(action.items);
+            return newState;
+        case "ADD_NEW_TASK":
+            newState=sortTasks(action.items);
+            return newState;
+        case "GET_SEARCH_ITEMS":
+             newState=sortTasks(action.items);
+            return newState;
         case "OPEN_TO_INPROCESS":
+          // taskActions.move(action.item,"inProcess").then(
             return state.map(task =>
                 (task.id === action.item.id)?
                     {...task,taskStatus: "inProcess"}
                     : task
             );
-
-            // return state.map(task =>
-            //     (task.id === action.item.id)?
-            //         {...task,taskStatus: "inProcess"}
-            //         : task
-            // );
         case "OPEN_TO_REVIEW":
             newState=state.inProcess;
             return newState;

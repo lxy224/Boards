@@ -11,14 +11,6 @@ api.path = (action) => {
     return prefix + action;
 };
 
-api.fetchTask=()=>{
-    return axios
-        .get(api.path('all'))
-        .then(
-            (response) => {
-                return response.data;
-            }
-        );
-}
+
 
 export default api;

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { DragSource ,DropTarget} from 'react-dnd';
 import { findDOMNode } from 'react-dom'
 import flow from 'lodash/flow';
+import taskActions from "../utility/tasks"
+
 const openBoardSource = {
     beginDrag(props) {
         return props.openTask
@@ -59,6 +61,9 @@ const openBoardTarget = {
     }
 }
  class OpenItem extends Component{
+     handleDelete=()=>{
+         this.props.deleteTask(this.props.openTask)
+     }
     render(){
         const {openTask, connectDragSource,isDragging,connectDropTarget} = this.props;
         // const { connectDragSource,isDragging} = this.props;
@@ -69,14 +74,20 @@ const openBoardTarget = {
                          <div className="title-peo">
                              <span>{openTask.taskTitle}</span>
                              <span>{openTask.acceptedUser}</span>
+                             <span><i className='icono-cross' onClick={this.handleDelete.bind(this)}/></span>
                              <span className="cb"/>
                          </div>
                          <div className="content-peo">
                              {openTask.taskContent}
                          </div>
                          <div className="bottom-peo">
-                             <span>{openTask.taskType}</span>
+                             <span className={openTask.taskType}>{openTask.taskType}</span>
                              <span>{openTask.createdUser}</span>
+                             {
+                                 openTask.attachment?
+                                     <a target="_blank" href={"http://localhost:8009/api/tasks/view?id="+openTask._id}><i className="icono-paperClip"/></a>:
+                                     <i/>
+                             }
                              <span className="cb"/>
                          </div>
                      </li>

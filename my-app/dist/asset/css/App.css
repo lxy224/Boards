@@ -1,0 +1,154 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; }
+
+* {
+  font-family: Avenir, "Segoe UI", Arial, sans-serif; }
+
+#root {
+  height: 100%; }
+
+.App {
+  height: 100%; }
+
+ul, ol {
+  list-style: none; }
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #00aaff; }
+
+a:hover {
+  text-decoration: underline; }
+
+ins, a {
+  text-decoration: none; }
+
+.cb {
+  clear: both; }
+
+.button-secondary {
+  background-color: #00aaff;
+  color: white;
+  margin-right: 10px; }
+
+.pure-button-hover, .pure-button:focus, .pure-button:hover {
+  text-decoration: none; }
+
+.Header {
+  height: 50px;
+  width: 100%;
+  line-height: 50px; }
+  .Header .person .icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #00aaff;
+    text-align: center; }
+  .Header .name {
+    line-height: 50px;
+    font-weight: 500;
+    color: #00aaff; }
+    .Header .name span {
+      padding-left: 50px; }
+  .Header input.no-border {
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    outline: none; }
+
+.Boards {
+  height: calc(100% - 52px);
+  overflow-y: hidden; }
+
+.BoardHeader {
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .BoardHeader .title {
+    font-size: 18px;
+    font-weight: 500;
+    color: white; }
+  .BoardHeader .count {
+    float: right;
+    color: white; }
+  .BoardHeader.OpenBoardHeader {
+    background-color: #30bfbf; }
+  .BoardHeader.InProcessHeader {
+    background-color: #d93651; }
+  .BoardHeader.ReviewBoardHeader {
+    background-color: #00aaff; }
+  .BoardHeader.DoneBoardHeader {
+    background-color: #8f7ee6; }
+
+.BoardContent {
+  overflow-y: auto;
+  height: 100%; }
+  .BoardContent.OpenBoardContent ul li .title-peo span:nth-child(2) {
+    color: #30bfbf; }
+  .BoardContent.OpenBoardContent ul li .bottom-peo {
+    margin-bottom: 6px; }
+    .BoardContent.OpenBoardContent ul li .bottom-peo span:nth-child(2) {
+      color: #30bfbf; }
+  .BoardContent.InProcessContent ul li .title-peo span:nth-child(2) {
+    color: #d93651; }
+  .BoardContent.InProcessContent ul li .bottom-peo {
+    margin-bottom: 6px; }
+    .BoardContent.InProcessContent ul li .bottom-peo span:nth-child(2) {
+      color: #d93651; }
+  .BoardContent ul {
+    padding: 0 10px 0 10px;
+    margin: 10px 0 10px 0; }
+    .BoardContent ul li {
+      background-color: white;
+      -webkit-box-shadow: 0px 1px 1px 0px rgba(130, 145, 153, 0.5);
+              box-shadow: 0px 1px 1px 0px rgba(130, 145, 153, 0.5);
+      border-radius: 5px;
+      padding: 5px;
+      margin-bottom: 10px; }
+      .BoardContent ul li .title-peo {
+        margin-bottom: 6px; }
+        .BoardContent ul li .title-peo span:nth-child(2) {
+          float: right; }
+      .BoardContent ul li .content-peo {
+        margin-bottom: 6px;
+        font-size: 14px; }
+      .BoardContent ul li .bottom-peo {
+        font-size: 14px; }
+        .BoardContent ul li .bottom-peo span:nth-child(2) {
+          float: right; }
+
+.OpenBoard {
+  background-color: #EBF0F2; }
+
+.InprocessBoard {
+  background-color: #f5f7f8; }
+
+.ViewBoard {
+  background-color: #EBF0F2; }
+
+.DoneBoard {
+  background-color: #f5f7f8; }
+
+.wrap-form {
+  width: 480px;
+  position: absolute;
+  top: 60%;
+  -webkit-transform: translate(400px, -60%);
+          transform: translate(400px, -60%); }
+  .wrap-form legend {
+    font-size: 20px; }
+  .wrap-form form {
+    width: 400px;
+    padding: 20px;
+    border: 20px solid #655;
+    background-color: tan; }
+    .wrap-form form button {
+      position: relative;
+      left: 300px; }

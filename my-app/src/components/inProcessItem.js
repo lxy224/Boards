@@ -16,6 +16,9 @@ const inProcessBoardSource = {
 
 }
 class InProcessItem extends Component{
+    handleDelete=()=>{
+        this.props.deleteTask(this.props.inProcessTask)
+    }
     render(){
         const {inProcessTask, connectDragSource,isDragging} = this.props;
         // const { connectDragSource,isDragging} = this.props;
@@ -25,13 +28,19 @@ class InProcessItem extends Component{
                 <div className="title-peo">
                     <span>{inProcessTask.taskTitle}</span>
                     <span>{inProcessTask.acceptedUser}</span>
+                    <span><i className='icono-cross' onClick={this.handleDelete.bind(this)}/></span>
+                    {
+                        inProcessTask.attachment?
+                            <a target="_blank" href={"http://localhost:8009/api/tasks/view?id="+inProcessTask._id}><i className="icono-paperClip"/></a>:
+                            <i/>
+                    }
                     <span className="cb"/>
                 </div>
                 <div className="content-peo">
                     {inProcessTask.taskContent}
                 </div>
                 <div className="bottom-peo">
-                    <span>{inProcessTask.taskType}</span>
+                    <span className={inProcessTask.taskType}>{inProcessTask.taskType}</span>
                     <span>{inProcessTask.createdUser}</span>
                     <span className="cb"/>
                 </div>

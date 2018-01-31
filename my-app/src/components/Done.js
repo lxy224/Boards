@@ -11,7 +11,7 @@ const DoneTarget = {
 
 export  class Done extends Component {
     render(){
-        const {doneTasks,connectDropTarget,isOver,canDrop} = this.props;
+        const {doneTasks,connectDropTarget,isOver,canDrop,deleteTask} = this.props;
         const isActive = isOver && canDrop;
 
         let backgroundColor;
@@ -30,8 +30,8 @@ export  class Done extends Component {
                 <div className="BoardContent DoneBoardContent">
                     <ul>
                         {
-                            doneTasks.map((doneTask)=>(
-                                <DoneItem doneTask={doneTask} key={doneTask.id}/>
+                            doneTasks.map((doneTask,index)=>(
+                                <DoneItem doneTask={doneTask} key={index} deleteTask={deleteTask}/>
                             ))
                         }
                     </ul>

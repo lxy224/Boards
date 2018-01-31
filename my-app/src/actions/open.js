@@ -6,7 +6,23 @@
 // };
 // export  default openAction
 
-export const open_to_inprocess = (item) =>({
+import taskActions from '../utility/tasks';
+import unilityOperation from './utility'
+// import {dispatch} from "../index";
+
+export const open_to_inprocess = (item) =>{
+    return (dispatch)=>{
+        dispatch(unilityOperation.isLoading(true));
+        taskActions.move(item,"inProcess")
+            .then((response)=>response.data)
+            .then((item)=> dispatch(open_to_inprocess_success({...item,taskStatus:"inProcess"})))
+            .catch((response)=>
+                dispatch(unilityOperation.hasError(true))
+            )
+    }
+
+};
+export const open_to_inprocess_success = (item)=>({
     type:"OPEN_TO_INPROCESS",
     item
 });

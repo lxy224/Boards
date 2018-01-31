@@ -6,3 +6,8 @@ export const signup = (user) =>({
     type:"SIGNUP",
     user
 });
+
+export const SignupWithCode = (UserAndCode)=>({
+    type:"SIGNUPWITHCODE",
+    UserAndCode
+})

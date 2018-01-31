@@ -1,7 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c05b910-1ca3-4ee6-84b8-f132f193aa6b" name="Default" comment="" />
+    <list default="true" id="1c05b910-1ca3-4ee6-84b8-f132f193aa6b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/library/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/library/responseMessage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/model/email_validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/model/task.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/model/taskTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/model/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/utility/email.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/utility/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/utility/taskLib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/utility/userLib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/utility/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/actions/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/components/signup/email_password.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/components/signup/validation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/containers/Header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/reducers/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/utility/email.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/utility/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my-app/src/utility/tasks.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/addressparser/lib/addressparser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/lib/buildmail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/test/fixtures/attachment.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/buildmail/test/libbuildmail-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/httpntlm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/ntlm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpntlm/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/contributors.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/lib/httpreq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/test/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/httpreq/test/testupload.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/lib/ip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/ip/test/api-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libbase64/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libbase64/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libbase64/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libbase64/lib/libbase64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libbase64/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/lib/charset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/lib/libmime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/lib/mimetypes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/Changelog.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/dbcs-codec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/dbcs-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-codec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/big5-added.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp936.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp949.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp950.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/eucjp.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/utf16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/encodings/utf7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/lib/bom-handling.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/lib/extend-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/lib/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/lib/streams.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/node_modules/iconv-lite/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libmime/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libqp/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libqp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libqp/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libqp/lib/libqp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/libqp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/mailcomposer/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/mailcomposer/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/lib/direct-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/lib/message-queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/test/direct-transport-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-direct-transport/test/message-queue-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/lib/cookies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/lib/fetch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/test/cookies-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-fetch/test/fetch-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/lib/shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/test/fixtures/message.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-shared/test/shared-test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/lib/assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/lib/pool-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/lib/smtp-pool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-pool/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/lib/smtp-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-smtp-transport/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/services.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer-wellknown/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/lib/http-proxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/lib/template-sender.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/build/smartbuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/build/smartbuffer.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/lib/smart-buffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/test/smart-buffer.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smart-buffer/typings/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/.eslintrc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/lib/data-stream.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/lib/smtp-connection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/smtp-connection/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/examples/associate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/examples/bind.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/examples/connect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/lib/socks-agent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/lib/socks-client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/backend/node_modules/socks/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/my-app/src/reducers/task_moved.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/my-app/src/actions/taskSorted.js" afterPath="$PROJECT_DIR$/backend/library/register.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/app.js" afterPath="$PROJECT_DIR$/backend/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/addressparser/.npmignore" afterPath="$PROJECT_DIR$/backend/node_modules/addressparser/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/addressparser/CHANGELOG.md" afterPath="$PROJECT_DIR$/backend/node_modules/addressparser/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/addressparser/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/addressparser/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/addressparser/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/addressparser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/cookie-parser/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/cookie-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/mailcomposer/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/mailcomposer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/mailcomposer/README.md" afterPath="$PROJECT_DIR$/backend/node_modules/mailcomposer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/mailcomposer/lib/mailcomposer.js" afterPath="$PROJECT_DIR$/backend/node_modules/mailcomposer/lib/mailcomposer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/mailcomposer/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/mailcomposer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/multiparty/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/multiparty/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/.npmignore" afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/CHANGELOG.md" afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/README.md" afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/lib/nodemailer.js" afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/lib/nodemailer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/nodemailer/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/nodemailer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/punycode/LICENSE-MIT.txt" afterPath="$PROJECT_DIR$/backend/node_modules/punycode/LICENSE-MIT.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/punycode/README.md" afterPath="$PROJECT_DIR$/backend/node_modules/punycode/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/punycode/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/punycode/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/punycode/punycode.js" afterPath="$PROJECT_DIR$/backend/node_modules/punycode/punycode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/underscore/LICENSE" afterPath="$PROJECT_DIR$/backend/node_modules/underscore/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/underscore/package.json" afterPath="$PROJECT_DIR$/backend/node_modules/underscore/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/underscore/underscore-min.js" afterPath="$PROJECT_DIR$/backend/node_modules/underscore/underscore-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/node_modules/underscore/underscore.js" afterPath="$PROJECT_DIR$/backend/node_modules/underscore/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/package-lock.json" afterPath="$PROJECT_DIR$/backend/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/package.json" afterPath="$PROJECT_DIR$/backend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/routes/login.js" afterPath="$PROJECT_DIR$/backend/routes/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/routes/task.js" afterPath="$PROJECT_DIR$/backend/routes/task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/package-lock.json" afterPath="$PROJECT_DIR$/my-app/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/package.json" afterPath="$PROJECT_DIR$/my-app/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/App.js" afterPath="$PROJECT_DIR$/my-app/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/actions/inProcess.js" afterPath="$PROJECT_DIR$/my-app/src/actions/inProcess.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/actions/open.js" afterPath="$PROJECT_DIR$/my-app/src/actions/open.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/actions/review.js" afterPath="$PROJECT_DIR$/my-app/src/actions/review.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/actions/user.js" afterPath="$PROJECT_DIR$/my-app/src/actions/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/Done.js" afterPath="$PROJECT_DIR$/my-app/src/components/Done.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/DoneItem.js" afterPath="$PROJECT_DIR$/my-app/src/components/DoneItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/Header.js" afterPath="$PROJECT_DIR$/my-app/src/components/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/Inprocess.js" afterPath="$PROJECT_DIR$/my-app/src/components/Inprocess.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/Open.js" afterPath="$PROJECT_DIR$/my-app/src/components/Open.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/Review.js" afterPath="$PROJECT_DIR$/my-app/src/components/Review.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/inProcessItem.js" afterPath="$PROJECT_DIR$/my-app/src/components/inProcessItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/login/login.js" afterPath="$PROJECT_DIR$/my-app/src/components/login/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/modal.js" afterPath="$PROJECT_DIR$/my-app/src/components/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/openItem.js" afterPath="$PROJECT_DIR$/my-app/src/components/openItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/reviewItem.js" afterPath="$PROJECT_DIR$/my-app/src/components/reviewItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/components/signup/signup.js" afterPath="$PROJECT_DIR$/my-app/src/components/signup/signup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/containers/Done.js" afterPath="$PROJECT_DIR$/my-app/src/containers/Done.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/containers/Open.js" afterPath="$PROJECT_DIR$/my-app/src/containers/Open.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/containers/Review.js" afterPath="$PROJECT_DIR$/my-app/src/containers/Review.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/containers/inProcess.js" afterPath="$PROJECT_DIR$/my-app/src/containers/inProcess.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/containers/login/login.js" afterPath="$PROJECT_DIR$/my-app/src/containers/login/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/containers/signup/signup.js" afterPath="$PROJECT_DIR$/my-app/src/containers/signup/signup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/index.js" afterPath="$PROJECT_DIR$/my-app/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/reducers/index.js" afterPath="$PROJECT_DIR$/my-app/src/reducers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/reducers/task_sorted.js" afterPath="$PROJECT_DIR$/my-app/src/reducers/task_sorted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/reducers/user.js" afterPath="$PROJECT_DIR$/my-app/src/reducers/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/scss/_Boards.scss" afterPath="$PROJECT_DIR$/my-app/src/scss/_Boards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/scss/_Header.scss" afterPath="$PROJECT_DIR$/my-app/src/scss/_Header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/scss/_base.scss" afterPath="$PROJECT_DIR$/my-app/src/scss/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/scss/_login.scss" afterPath="$PROJECT_DIR$/my-app/src/scss/_login.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/scss/_modal.scss" afterPath="$PROJECT_DIR$/my-app/src/scss/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/utility/api.js" afterPath="$PROJECT_DIR$/my-app/src/utility/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/utility/loader.js" afterPath="$PROJECT_DIR$/my-app/src/utility/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-app/src/utility/user.js" afterPath="$PROJECT_DIR$/my-app/src/utility/user.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,51 +284,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="inProcess.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/containers/inProcess.js">
+      <file leaf-file-name="Done.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/components/Done.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="231">
+              <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Review.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/containers/Review.js">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/containers/login/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="36" lean-forward="true" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/actions/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inprocess.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/components/Inprocess.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="open.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/actions/open.js">
+        <entry file="file://$PROJECT_DIR$/my-app/src/reducers/open.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_types.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utility.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/reducers/utility.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,32 +339,52 @@
       <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/utility/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-app/src/utility/loader.js">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-app/src/utility/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_sorted.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/reducers/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_sorted.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_sorted.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-app/src/reducers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,21 +402,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>css</find>
-      <find>.css</find>
-      <find>Open</find>
-      <find>open</find>
-      <find>OpenToInProcess</find>
-      <find>@</find>
-      <find>openTask</find>
-      <find>prox</find>
-      <find>entry</find>
-      <find>sortedId</find>
-      <find>all</find>
-      <find>openTasks</find>
-      <find>addTask</find>
+      <find>OPEN_TO_INPROCESS</find>
+      <find>model</find>
+      <find>onclick</find>
+      <find>fetchTask</find>
       <find>GET_ALL_TASKS</find>
+      <find>before</find>
+      <find>itemHasErrored</find>
+      <find>userActions.singUp</find>
+      <find>User fond</find>
+      <find>next</find>
+      <find>.singUp</find>
+      <find>userActions</find>
+      <find>SIGNUP</find>
+      <find>signup</find>
+      <find>Link</find>
+      <find>Header</find>
+      <find>constructor</find>
+      <find>sortedId</find>
+      <find>ref</find>
+      <find>did</find>
+      <find>get_all_items</find>
+      <find>GET_SEARCH_ITEMS</find>
+      <find>GET_ALL_ITEMS</find>
+      <find>get_search_items</find>
+      <find>:hover</find>
+      <find>unilityOperation</find>
+      <find>moveOpenItem</find>
       <find>MOVE_OPENITEM</find>
+      <find>.bottom-peo</find>
+      <find>handleGetFile</find>
     </findStrings>
     <replaceStrings>
       <replace>Review</replace>
@@ -141,62 +448,67 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/my-app/config</dir>
       <dir>$PROJECT_DIR$/my-app/src/components</dir>
+      <dir>$PROJECT_DIR$/my-app/src/scss</dir>
+      <dir>$PROJECT_DIR$/backend</dir>
       <dir>$PROJECT_DIR$/my-app/src</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-app/src/containers/Review.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/inProcessItem.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Review.js" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/inProcess.js" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/done.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/DoneItem.js" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/review.js" />
-        <option value="$PROJECT_DIR$/my-app/src/containers/Done.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Done.js" />
-        <option value="$PROJECT_DIR$/my-app/src/scss/_base.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/components/modal.js" />
-        <option value="$PROJECT_DIR$/my-app/src/scss/_modal.scss" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/open.js" />
-        <option value="$PROJECT_DIR$/my-app/src/reducers/task_moved.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Open.js" />
-        <option value="$PROJECT_DIR$/my-app/src/data/data.json" />
-        <option value="$PROJECT_DIR$/my-app/src/scss/App.scss" />
-        <option value="$PROJECT_DIR$/backend/modules/config/database.js" />
-        <option value="$PROJECT_DIR$/backend/modules/routers/login.js" />
-        <option value="$PROJECT_DIR$/backend/modules/routers/index.js" />
-        <option value="$PROJECT_DIR$/my-app/config/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/backend/routes/signup.js" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/login.js" />
-        <option value="$PROJECT_DIR$/my-app/src/containers/login/login.js" />
-        <option value="$PROJECT_DIR$/my-app/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index02.html" />
-        <option value="vm:548" />
-        <option value="$PROJECT_DIR$/my-app/src/scss/_login.scss" />
-        <option value="$PROJECT_DIR$/my-app/package.json" />
-        <option value="vm:533" />
-        <option value="$PROJECT_DIR$/my-app/src/components/login/login.js" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/user.js" />
-        <option value="$PROJECT_DIR$/my-app/src/containers/signup/signup.js" />
-        <option value="$PROJECT_DIR$/my-app/src/reducers/user.js" />
-        <option value="$PROJECT_DIR$/backend/routes/login.js" />
+        <option value="vm:980" />
+        <option value="$PROJECT_DIR$/my-app/src/containers/sites-available_2018/ciip.cisco.com.conf" />
+        <option value="$PROJECT_DIR$/backend/package.json" />
+        <option value="vm:1280" />
+        <option value="vm:1148" />
+        <option value="$PROJECT_DIR$/backend/utility/email.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/signup/validation.js" />
+        <option value="vm:1195" />
+        <option value="vm:1341" />
+        <option value="$PROJECT_DIR$/my-app/src/components/signup/email_password.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/signup/signup.js" />
-        <option value="$PROJECT_DIR$/index03.html" />
-        <option value="$PROJECT_DIR$/backend/routes/task.js" />
-        <option value="$PROJECT_DIR$/backend/app.js" />
-        <option value="$PROJECT_DIR$/my-app/src/actions/taskSorted.js" />
-        <option value="$PROJECT_DIR$/my-app/src/utility/api.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/Boards.js" />
-        <option value="$PROJECT_DIR$/my-app/src/utility/loader.js" />
-        <option value="$PROJECT_DIR$/my-app/src/utility/user.js" />
-        <option value="$PROJECT_DIR$/my-app/src/App.js" />
+        <option value="$PROJECT_DIR$/backend/library/register.js" />
+        <option value="$PROJECT_DIR$/my-app/src/scss/_login.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/login/login.js" />
         <option value="$PROJECT_DIR$/my-app/src/index.js" />
+        <option value="$PROJECT_DIR$/my-app/src/scss/_modal.scss" />
+        <option value="$PROJECT_DIR$/backend/routes/user.js" />
+        <option value="$PROJECT_DIR$/backend/routes/login.js" />
+        <option value="$PROJECT_DIR$/backend/app.js" />
+        <option value="$PROJECT_DIR$/backend/utility/userLib.js" />
+        <option value="$PROJECT_DIR$/my-app/src/utility/user.js" />
+        <option value="$PROJECT_DIR$/backend/model/taskTypes.js" />
         <option value="$PROJECT_DIR$/my-app/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/my-app/src/components/openItem.js" />
+        <option value="$PROJECT_DIR$/my-app/src/actions/task.js" />
+        <option value="$PROJECT_DIR$/my-app/src/scss/_Boards.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Open.js" />
         <option value="$PROJECT_DIR$/my-app/src/containers/Open.js" />
+        <option value="$PROJECT_DIR$/my-app/src/containers/Done.js" />
+        <option value="$PROJECT_DIR$/my-app/src/containers/inProcess.js" />
+        <option value="$PROJECT_DIR$/my-app/src/containers/Review.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Done.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Inprocess.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/Review.js" />
+        <option value="$PROJECT_DIR$/my-app/src/scss/_base.scss" />
+        <option value="$PROJECT_DIR$/my-app/src/actions/utility.js" />
+        <option value="$PROJECT_DIR$/backend/library/responseMessage.js" />
+        <option value="vm:656" />
+        <option value="vm:701" />
+        <option value="vm:828" />
+        <option value="$PROJECT_DIR$/my-app/src/utility/tasks.js" />
+        <option value="vm:690" />
+        <option value="vm:811" />
+        <option value="$PROJECT_DIR$/backend/model/task.js" />
+        <option value="$PROJECT_DIR$/backend/routes/task.js" />
+        <option value="$PROJECT_DIR$/backend/utility/taskLib.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/openItem.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/reviewItem.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/inProcessItem.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/DoneItem.js" />
+        <option value="$PROJECT_DIR$/my-app/src/components/modal.js" />
         <option value="$PROJECT_DIR$/my-app/src/reducers/task_sorted.js" />
       </list>
     </option>
@@ -219,11 +531,12 @@
     <handled-path value="$PROJECT_DIR$/my-app/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1669" />
-    <option name="y" value="139" />
-    <option name="width" value="1987" />
-    <option name="height" value="1318" />
+    <option name="x" value="2226" />
+    <option name="y" value="42" />
+    <option name="width" value="2007" />
+    <option name="height" value="1332" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -239,6 +552,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,100 +561,34 @@
               <item name="Board" type="b2602c69:ProjectViewProjectNode" />
               <item name="Board" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Board" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Board" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.6.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/containers" />
+      <recent name="$PROJECT_DIR$/my-app/src/components/signup" />
       <recent name="$PROJECT_DIR$/my-app/src/scss" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src" />
+      <recent name="$PROJECT_DIR$/backend/model" />
+      <recent name="$PROJECT_DIR$/backend/utility" />
       <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/backend/routes" />
-      <recent name="$PROJECT_DIR$/backend/modules" />
-      <recent name="$PROJECT_DIR$/my-app/src/components" />
-      <recent name="$PROJECT_DIR$/my-app/src/containers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,27 +664,43 @@
       <workItem from="1512760940084" duration="7258000" />
       <workItem from="1512864000966" duration="54636000" />
       <workItem from="1513202901131" duration="5972000" />
-      <workItem from="1513288121218" duration="53695000" />
+      <workItem from="1513288121218" duration="65191000" />
+      <workItem from="1515778333702" duration="35458000" />
+      <workItem from="1516234428309" duration="19424000" />
+      <workItem from="1516383275511" duration="52921000" />
+      <workItem from="1517080133630" duration="21841000" />
+      <workItem from="1517200775154" duration="28704000" />
+      <workItem from="1517349842190" duration="18000" />
+      <workItem from="1517349872892" duration="12731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121561000" />
+    <option name="totallyTimeSpent" value="304154000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1669" y="139" width="1987" height="1318" extended-state="0" />
+    <frame x="2226" y="42" width="2007" height="1332" extended-state="0" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18006104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41944256" sideWeight="0.50997007" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49578652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28247735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299578" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25356126" sideWeight="0.5179704" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63247865" sideWeight="0.4901862" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41944256" sideWeight="0.4900299" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.386148" sideWeight="0.4901862" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12449475" sideWeight="0.48414376" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35443038" sideWeight="0.4820296" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39985162" sideWeight="0.4901862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -449,19 +713,19 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41944256" sideWeight="0.50997007" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25356126" sideWeight="0.5179704" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63247865" sideWeight="0.4901862" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41944256" sideWeight="0.4900299" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19088319" sideWeight="0.4901862" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39601138" sideWeight="0.48414376" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49578652" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51282054" sideWeight="0.4820296" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39985162" sideWeight="0.4901862" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,37 +743,301 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/my-app/src/components/Open.js</url>
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>46</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-app/src/containers/Header.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>67</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>78</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>34</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
+          <line>77</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
+          <line>80</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
+          <line>83</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/userLib.js</url>
+          <line>25</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/userLib.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/userLib.js</url>
+          <line>36</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>41</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>49</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-app/src/reducers/user.js</url>
           <line>15</line>
-          <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/backend/library/register.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/backend/routes/login.js</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>68</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>71</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-app/src/utility/tasks.js</url>
+          <line>89</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/my-app/src/utility/tasks.js</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/utility/taskLib.js</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/routes/task.js</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="147" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
-        <watch expression="req.body" language="JavaScript" />
-        <watch expression="res" language="JavaScript" />
-        <watch expression="docs" language="JavaScript" />
+        <watch expression="task_id" language="JavaScript" />
+        <watch expression="task" language="JavaScript" />
+        <watch expression="task" language="JavaScript" />
+        <watch expression="task._id" language="JavaScript" />
+        <watch expression="task" language="JavaScript" />
+        <watch expression="task_id" language="JavaScript" />
+        <watch expression="req" language="JavaScript" />
+        <watch expression="req" language="JavaScript" />
+        <watch expression="req.query.id" language="JavaScript" />
+        <watch expression="target_path" language="JavaScript" />
+        <watch expression="err&amp;&amp;doc" language="JavaScript" />
+        <watch expression="doc.__proto__" />
       </configuration>
     </watches-manager>
   </component>
@@ -534,39 +1062,103 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/package.json">
+    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Done.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/routes/signup.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/containers/inProcess.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="20" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="277">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/actions/review.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Review.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="149">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_types.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Inprocess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="73" lean-forward="false" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Review.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/library/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/actions/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/node_modules/webpack-dev-server/client/web_modules/jquery/jquery-1.8.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1589" column="16" lean-forward="false" selection-start-line="1589" selection-start-column="16" selection-end-line="1589" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/scss/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/inProcessItem.js">
+    <entry file="file://$PROJECT_DIR$/backend/library/responseMessage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/config/webpack.config.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5645">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/utility/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -576,27 +1168,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index02.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.6.0/core-modules/async_hooks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="-694">
+          <caret line="451" column="26" lean-forward="false" selection-start-line="451" selection-start-column="26" selection-end-line="451" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/backend/routes/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="163" column="8" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="163" selection-end-column="8" />
+        <state relative-caret-position="440">
+          <caret line="119" column="23" lean-forward="false" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/scss/_login.scss">
+    <entry file="file://$PROJECT_DIR$/backend/utility/taskLib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="62" column="27" lean-forward="false" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/reviewItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="111" lean-forward="false" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/inProcessItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="33" column="109" lean-forward="false" selection-start-line="33" selection-start-column="109" selection-end-line="33" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/openItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="80" column="51" lean-forward="true" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Open.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="56" column="67" lean-forward="false" selection-start-line="56" selection-start-column="67" selection-end-line="56" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/DoneItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/model/email_validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/model/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/model/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/model/taskTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controller/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/utility/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/utility/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/utility/userLib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/utility/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/actions/done.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/actions/inProcess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/actions/review.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/actions/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/actions/utility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="83" column="22" lean-forward="false" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/signup/email_password.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/signup/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/signup/validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/components/Done.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/containers/login/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_sorted.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -608,167 +1436,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Review.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/reviewItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-router-dom/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-router/es/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-router/es/hashHistory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/reducers/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="29" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/signup/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/signup/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/data/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="118" column="21" lean-forward="true" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/routes/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="104" column="11" lean-forward="false" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-          <folding>
-            <marker date="1513707198000" expanded="true" signature="81:939" ph="{&quot;autoprefixer&quot;: &quot;7.1.6&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/routes/task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/node_modules/react-router-dom/es/StaticRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/actions/taskSorted.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_types.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -776,196 +1452,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Done.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/utility/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/utility.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/DoneItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Boards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#216#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Done.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Open.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/openItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/components/Inprocess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-app/src/utility/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Open.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#88#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/inProcess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/actions/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/containers/Review.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="true" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/actions/open.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_moved.js">
+    <entry file="file://$PROJECT_DIR$/my-app/src/utility/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/utility/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/src/reducers/task_sorted.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
