@@ -16,4 +16,4 @@ node app.js
 cd /my-app
 npm start
 
-未完待续
+未完待续,有时间我会继续更新的
