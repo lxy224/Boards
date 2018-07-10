@@ -17,3 +17,5 @@ cd /my-app
 npm start
 
 未完待续,有时间我会继续更新的
+这是一个关于master分支的测试
+只是一个在mater分支上，进行hotfix分支的测试
